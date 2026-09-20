@@ -1,0 +1,12 @@
+node_modules
+.next
+.vercel
+package-lock.json
+next-env.d.ts
+coverage
+playwright-report
+test-results
+*.tsbuildinfo
+supabase/.temp
+supabase/.branches
+.env*

@@ -1,0 +1,514 @@
+{
+  "profile": {
+    "id": "10000000-0000-4000-8000-000000000004",
+    "full_name": "Leïla Bennani",
+    "role": "supervisor"
+  },
+  "profiles": [
+    {
+      "id": "10000000-0000-4000-8000-000000000001",
+      "full_name": "Yasmine Alaoui",
+      "role": "agent"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000002",
+      "full_name": "Salma Benjelloun",
+      "role": "agent"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000003",
+      "full_name": "Imane Rami",
+      "role": "agent"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000004",
+      "full_name": "Leïla Bennani",
+      "role": "supervisor"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000005",
+      "full_name": "Admin Démo",
+      "role": "admin"
+    }
+  ],
+  "claims": [
+    {
+      "id": "20000000-0000-4000-8000-000000000001",
+      "reference": "SIN-26091",
+      "status": "en_attente_client",
+      "priority": "haute",
+      "assigned_agent_id": "10000000-0000-4000-8000-000000000001",
+      "occurred_at": "2026-09-18T17:35:00+01:00",
+      "city": "Casablanca",
+      "location": "Rond-point de la Ligue arabe",
+      "statement": "À l'arrêt au rond-point, un véhicule m'a heurtée à l'arrière. Dégâts légers sur le pare-chocs arrière.",
+      "statement_language": "fr",
+      "translation": null,
+      "injury_state": "none",
+      "vehicle_drivable": true,
+      "assistance_status": "sans_objet",
+      "assistance_source": null,
+      "has_conflict": false,
+      "duplicate_import": false,
+      "updated_at": "2026-09-19T08:40:00+01:00",
+      "client": {
+        "id": "C-1042",
+        "full_name": "Nadia El Mansouri",
+        "phone": "06 •••••• 142",
+        "language": "fr"
+      },
+      "contract": {
+        "id": "POL-24018",
+        "reference": "MA-AUTO-24018",
+        "insurer": "Sanlam Maroc",
+        "vehicle": "Dacia Sandero · 2022",
+        "registration": "12-AB-3456",
+        "valid_to": "2027-02-15"
+      },
+      "documents": [
+        {
+          "id": "DOC-26091-1",
+          "label": "Constat amiable",
+          "type": "constat",
+          "status": "manquant",
+          "source": "-"
+        },
+        {
+          "id": "DOC-26091-2",
+          "label": "Photos",
+          "type": "photos",
+          "status": "recu",
+          "source": "Formulaire client"
+        },
+        {
+          "id": "DOC-26091-3",
+          "label": "Permis de conduire",
+          "type": "permis",
+          "status": "verifie",
+          "source": "CRM broker"
+        },
+        {
+          "id": "DOC-26091-4",
+          "label": "Carte grise",
+          "type": "carte_grise",
+          "status": "verifie",
+          "source": "CRM broker"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "30000000-0000-4000-8000-000000000001",
+          "title": "Demander le constat amiable",
+          "due_at": "2026-09-19T18:00:00+01:00",
+          "completed_at": null,
+          "assigned_to": "10000000-0000-4000-8000-000000000001"
+        }
+      ],
+      "notes": [],
+      "events": [
+        {
+          "id": "SIN-26091-0",
+          "action": "created",
+          "label": "Sinistre créé",
+          "actor_name": "Client",
+          "created_at": "2026-09-18T17:42:00+01:00"
+        },
+        {
+          "id": "SIN-26091-1",
+          "action": "status",
+          "label": "Statut : En attente client",
+          "actor_name": "Système",
+          "created_at": "2026-09-18T17:42:00+01:00"
+        },
+        {
+          "id": "SIN-26091-2",
+          "action": "document",
+          "label": "Constat amiable signalé manquant",
+          "actor_name": "Système",
+          "created_at": "2026-09-18T17:42:00+01:00"
+        },
+        {
+          "id": "SIN-26091-3",
+          "action": "note",
+          "label": "Rappel client demandé",
+          "actor_name": "Broker",
+          "created_at": "2026-09-19T08:40:00+01:00"
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000002",
+      "reference": "SIN-26094",
+      "status": "a_traiter",
+      "priority": "haute",
+      "assigned_agent_id": "10000000-0000-4000-8000-000000000002",
+      "occurred_at": "2026-09-19T07:50:00+01:00",
+      "city": "Rabat",
+      "location": "Axe Rabat – Salé, sortie Bouregreg",
+      "statement": "Perte de contrôle sur chaussée humide. Le véhicule est immobilisé sur la bande d'arrêt d'urgence.",
+      "statement_language": "fr",
+      "translation": null,
+      "injury_state": "none",
+      "vehicle_drivable": false,
+      "assistance_status": "non_verifiee",
+      "assistance_source": "Sanlam Maroc",
+      "has_conflict": false,
+      "duplicate_import": false,
+      "updated_at": "2026-09-19T08:12:00+01:00",
+      "client": {
+        "id": "C-1088",
+        "full_name": "Omar Benali",
+        "phone": "06 •••••• 604",
+        "language": "fr"
+      },
+      "contract": {
+        "id": "POL-23872",
+        "reference": "MA-AUTO-23872",
+        "insurer": "RMA",
+        "vehicle": "Renault Clio · 2021",
+        "registration": "45-CD-7890",
+        "valid_to": "2027-06-03"
+      },
+      "documents": [
+        {
+          "id": "DOC-26094-1",
+          "label": "Constat amiable",
+          "type": "constat",
+          "status": "a_verifier",
+          "source": "Formulaire client"
+        },
+        {
+          "id": "DOC-26094-2",
+          "label": "Photos",
+          "type": "photos",
+          "status": "recu",
+          "source": "Formulaire client"
+        },
+        {
+          "id": "DOC-26094-3",
+          "label": "Carte grise",
+          "type": "carte_grise",
+          "status": "recu",
+          "source": "Import simulé"
+        },
+        {
+          "id": "DOC-26094-4",
+          "label": "Permis de conduire",
+          "type": "permis",
+          "status": "verifie",
+          "source": "CRM broker"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "30000000-0000-4000-8000-000000000002",
+          "title": "Vérifier la garantie assistance",
+          "due_at": "2026-09-19T12:00:00+01:00",
+          "completed_at": null,
+          "assigned_to": "10000000-0000-4000-8000-000000000002"
+        }
+      ],
+      "notes": [],
+      "events": [
+        {
+          "id": "SIN-26094-0",
+          "action": "created",
+          "label": "Sinistre créé",
+          "actor_name": "Client",
+          "created_at": "2026-09-19T07:58:00+01:00"
+        },
+        {
+          "id": "SIN-26094-1",
+          "action": "status",
+          "label": "Statut : À traiter",
+          "actor_name": "Système",
+          "created_at": "2026-09-19T07:58:00+01:00"
+        },
+        {
+          "id": "SIN-26094-2",
+          "action": "assistance",
+          "label": "Assistance non vérifiée : aucune confirmation de prise en charge",
+          "actor_name": "Système",
+          "created_at": "2026-09-19T07:58:00+01:00"
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000003",
+      "reference": "SIN-26095",
+      "status": "intervention_requise",
+      "priority": "critique",
+      "assigned_agent_id": "10000000-0000-4000-8000-000000000001",
+      "occurred_at": "2026-09-19T09:05:00+01:00",
+      "city": "Marrakech",
+      "location": "Avenue Mohammed VI",
+      "statement": "اصطدمت سيارة بسيارتي من الخلف عند الإشارة الضوئية. أصيب الراكب الأمامي بآلام في الرقبة.",
+      "statement_language": "ar",
+      "translation": "Une voiture a heurté la mienne par l'arrière au feu rouge. Le passager avant ressent des douleurs au cou.",
+      "injury_state": "yes",
+      "vehicle_drivable": true,
+      "assistance_status": "sans_objet",
+      "assistance_source": null,
+      "has_conflict": false,
+      "duplicate_import": false,
+      "updated_at": "2026-09-19T09:30:00+01:00",
+      "client": {
+        "id": "C-1103",
+        "full_name": "Sara Amrani",
+        "phone": "06 •••••• 881",
+        "language": "ar"
+      },
+      "contract": {
+        "id": "POL-24191",
+        "reference": "MA-AUTO-24191",
+        "insurer": "Wafa Assurance",
+        "vehicle": "Peugeot 208 · 2023",
+        "registration": "78-EF-1234",
+        "valid_to": "2026-11-28"
+      },
+      "documents": [
+        {
+          "id": "DOC-26095-1",
+          "label": "Constat amiable",
+          "type": "constat",
+          "status": "recu",
+          "source": "Formulaire client"
+        },
+        {
+          "id": "DOC-26095-2",
+          "label": "Certificat médical",
+          "type": "certificat_medical",
+          "status": "manquant",
+          "source": "-"
+        },
+        {
+          "id": "DOC-26095-3",
+          "label": "Photos",
+          "type": "photos",
+          "status": "recu",
+          "source": "Formulaire client"
+        },
+        {
+          "id": "DOC-26095-4",
+          "label": "Permis de conduire",
+          "type": "permis",
+          "status": "verifie",
+          "source": "CRM broker"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "30000000-0000-4000-8000-000000000003",
+          "title": "Revue humaine du dossier blessure",
+          "due_at": "2026-09-19T11:00:00+01:00",
+          "completed_at": null,
+          "assigned_to": "10000000-0000-4000-8000-000000000001"
+        }
+      ],
+      "notes": [],
+      "events": [
+        {
+          "id": "SIN-26095-0",
+          "action": "created",
+          "label": "Sinistre créé",
+          "actor_name": "Client",
+          "created_at": "2026-09-19T09:12:00+01:00"
+        },
+        {
+          "id": "SIN-26095-1",
+          "action": "injury",
+          "label": "Blessure signalée : revue humaine requise",
+          "actor_name": "Système",
+          "created_at": "2026-09-19T09:12:00+01:00"
+        },
+        {
+          "id": "SIN-26095-2",
+          "action": "status",
+          "label": "Statut : Intervention requise",
+          "actor_name": "Système",
+          "created_at": "2026-09-19T09:12:00+01:00"
+        },
+        {
+          "id": "SIN-26095-3",
+          "action": "review",
+          "label": "Escalade humaine ouverte",
+          "actor_name": "Broker",
+          "created_at": "2026-09-19T09:30:00+01:00"
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000004",
+      "reference": "SIN-26096",
+      "status": "a_traiter",
+      "priority": "haute",
+      "assigned_agent_id": "10000000-0000-4000-8000-000000000003",
+      "occurred_at": "2026-09-18T19:10:00+01:00",
+      "city": "Fès",
+      "location": "Route de Sefrou",
+      "statement": "Impact de gravier, fissure sur le pare-brise côté passager.",
+      "statement_language": "fr",
+      "translation": null,
+      "injury_state": "none",
+      "vehicle_drivable": true,
+      "assistance_status": "sans_objet",
+      "assistance_source": null,
+      "has_conflict": true,
+      "duplicate_import": false,
+      "updated_at": "2026-09-19T08:05:00+01:00",
+      "client": {
+        "id": "C-1114",
+        "full_name": "Karim Tazi",
+        "phone": "06 •••••• 250",
+        "language": "fr"
+      },
+      "contract": {
+        "id": "POL-24982",
+        "reference": "MA-AUTO-24982",
+        "insurer": "RMA",
+        "vehicle": "Hyundai i10 · 2021",
+        "registration": "5-FE-3345",
+        "valid_to": "2027-02-15"
+      },
+      "documents": [
+        {
+          "id": "DOC-26096-1",
+          "label": "Constat amiable",
+          "type": "constat",
+          "status": "recu",
+          "source": "Client"
+        },
+        {
+          "id": "DOC-26096-2",
+          "label": "Carte grise",
+          "type": "carte_grise",
+          "status": "a_verifier",
+          "source": "Import simulé"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "30000000-0000-4000-8000-000000000004",
+          "title": "Examiner le conflit de police",
+          "due_at": "2026-09-19T17:00:00+01:00",
+          "completed_at": null,
+          "assigned_to": "10000000-0000-4000-8000-000000000003"
+        }
+      ],
+      "notes": [],
+      "events": [
+        {
+          "id": "SIN-26096-0",
+          "action": "created",
+          "label": "Sinistre créé",
+          "actor_name": "Broker",
+          "created_at": "2026-09-18T19:18:00+01:00"
+        },
+        {
+          "id": "SIN-26096-1",
+          "action": "import",
+          "label": "Import simulé : conflit détecté (TRT Broker)",
+          "actor_name": "Import simulé",
+          "created_at": "2026-09-18T19:35:00+01:00"
+        },
+        {
+          "id": "SIN-26096-2",
+          "action": "conflict",
+          "label": "Conflit en attente de revue humaine : aucune valeur écrasée",
+          "actor_name": "Système",
+          "created_at": "2026-09-18T19:35:00+01:00"
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000005",
+      "reference": "SIN-26097",
+      "status": "en_cours",
+      "priority": "normale",
+      "assigned_agent_id": "10000000-0000-4000-8000-000000000002",
+      "occurred_at": "2026-09-17T15:20:00+01:00",
+      "city": "Tanger",
+      "location": "Place des Nations",
+      "statement": "Accrochage en manœuvre de stationnement, dégâts mineurs sur l'aile avant gauche.",
+      "statement_language": "fr",
+      "translation": null,
+      "injury_state": "none",
+      "vehicle_drivable": true,
+      "assistance_status": "sans_objet",
+      "assistance_source": null,
+      "has_conflict": false,
+      "duplicate_import": true,
+      "updated_at": "2026-09-19T09:30:00+01:00",
+      "client": {
+        "id": "C-1127",
+        "full_name": "Imane Berrada",
+        "phone": "06 •••••• 990",
+        "language": "fr"
+      },
+      "contract": {
+        "id": "POL-25310",
+        "reference": "MA-AUTO-25310",
+        "insurer": "AXA Assurance Maroc",
+        "vehicle": "Fiat Tipo · 2020",
+        "registration": "96-GH-2281",
+        "valid_to": "2027-01-09"
+      },
+      "documents": [
+        {
+          "id": "DOC-26097-1",
+          "label": "Constat amiable",
+          "type": "constat",
+          "status": "verifie",
+          "source": "Import simulé"
+        },
+        {
+          "id": "DOC-26097-2",
+          "label": "Carte grise",
+          "type": "carte_grise",
+          "status": "verifie",
+          "source": "Import simulé"
+        },
+        {
+          "id": "DOC-26097-3",
+          "label": "Photos",
+          "type": "photos",
+          "status": "verifie",
+          "source": "CRM broker"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "30000000-0000-4000-8000-000000000005",
+          "title": "Vérifier l'import doublon",
+          "due_at": "2026-09-20T12:00:00+01:00",
+          "completed_at": null,
+          "assigned_to": "10000000-0000-4000-8000-000000000002"
+        }
+      ],
+      "notes": [],
+      "events": [
+        {
+          "id": "SIN-26097-0",
+          "action": "created",
+          "label": "Sinistre créé",
+          "actor_name": "Client",
+          "created_at": "2026-09-17T15:30:00+01:00"
+        },
+        {
+          "id": "SIN-26097-1",
+          "action": "import",
+          "label": "Import simulé tenté (OuiAssur)",
+          "actor_name": "Import simulé",
+          "created_at": "2026-09-19T09:30:00+01:00"
+        },
+        {
+          "id": "SIN-26097-2",
+          "action": "import",
+          "label": "Doublon détecté : aucune nouvelle information à ajouter",
+          "actor_name": "Système",
+          "created_at": "2026-09-19T09:30:00+01:00"
+        }
+      ]
+    }
+  ]
+}

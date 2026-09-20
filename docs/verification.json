@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-19",
+  "deployment": {
+    "url": "https://med-assurance-kz0yevy4c-readmemaybes-projects.vercel.app",
+    "id": "dpl_25rYjkPKXxaq5KvzouDGWqALFtZu",
+    "type": "preview",
+    "ready": true,
+    "productionPublished": false
+  },
+  "checks": {
+    "npmCheck": "pass",
+    "unitTests": 17,
+    "browserTestsPassed": 15,
+    "browserTestsSkipped": 1,
+    "sqlLint": "pass",
+    "databaseAccess": "pass",
+    "hostedDemoHTTP": 200,
+    "hostedArabicRecordHTTP": 200,
+    "hostedHealth": "pass",
+    "legacyHashes": "pass",
+    "environmentValueScan": "pass"
+  },
+  "limitations": [
+    "M2/M3/M4 remain in progress; see fast-track.md.",
+    "Authenticated browser coverage is desktop; demo coverage is desktop and mobile.",
+    "No Git push or new GitHub CI run."
+  ],
+  "hostedBackend": {
+    "projectRef": "jrfmolrxiuxmnunauukz",
+    "projectName": "READMEmaybe's Project",
+    "migrations": ["20260919000000", "20260919010000", "20260919020000"],
+    "accounts": 6,
+    "claims": 6,
+    "hostedLogin": "pass",
+    "accountScope": "pass",
+    "clientInternalAccessDenied": "pass",
+    "directProfileWritesDenied": "pass",
+    "browserSaveReloadUndoAuditLogout": "pass",
+    "credentialsFile": ".env.hosted-accounts.json",
+    "credentialsInRepository": false
+  }
+}
