@@ -24,7 +24,7 @@ test("public foundation navigates across separate surfaces", async ({
   await page.getByRole("link", { name: /Espace client/ }).click();
   await expect(page).toHaveURL(/\/client$/);
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
-    "Votre cabinet",
+    "La route continue",
   );
   expect(
     await page.evaluate(
